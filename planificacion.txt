@@ -1,0 +1,17 @@
+Menu
+1- Llamar a la clase divisas para crear las 5 divisas necesarias para el cambio
+   * Estas deben incluir su tasa de cambio entre ellas, posiblemente se necesite otra clase para definir este calculo
+   * Estas tienen que ser diferente una de la otra
+   * Debe ser llamable
+   * Debe contener un constructor para poder adquirir la informacion
+
+2- Llamar a la clase menu
+
+3- Calculo
+    * Un contador que almacena la cantidad de transacciones almacenadas con cada divisas
+    * Realizar una operacion 
+      > Esta accion debe comprobar primero que las divisas estan creadas
+      > De no estar creadas se debe ejecutar la accion para crearlas
+      > De estar creadas debe abrir un submenu el cual permita preguntar con que divisas se hara el cambio
+      > La divisa selecciona debe ingresar el monto en pesos chilenos
+      > Y mostrar la cantidad de divisa a entregar
