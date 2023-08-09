@@ -25,3 +25,23 @@ class Calculador():
     
     def SetVa2(self, Va2):
         self.__Valor2 = Va2
+        
+    ## GETTER
+    
+    def getResultado(self):
+        return self.__ResultCal
+    def getValor2(self):
+        return self.__Valor2
+    
+    ################
+    #### METODO ####
+    ################
+    
+    def calculoraro():
+        Eur = CreaDivisador.getDivisaEur
+        
+        # Posible fallo
+        
+        Resultado = Eur * 0.50
+        
+        print(Resultado)
