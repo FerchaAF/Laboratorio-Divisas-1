@@ -8,19 +8,19 @@ class CreaDivisador():
     
     ## SETTER
 
-    def setDivisaEur(self, DivisaEur):
+    def setDivisaEur(self, Euro):
         self.__DivisaEur = Euro
 
-    def setDivisaDol(self, DivisaDol):
+    def setDivisaDol(self, Dolar):
         self.__DivisaDol = Dolar
 
-    def setDivisaSol(self, DivisaSol):
+    def setDivisaSol(self, Sol):
         self.__DivisaSol = Sol
 
-    def setDivisaMex(self, DivisaMex):
+    def setDivisaMex(self, PMexicano):
         self.__DivisaMex = PMexicano
 
-    def setDivisaYen(self, DivisaYen):
+    def setDivisaYen(self, Yen):
         self.__DivisaYen = Yen
 
     ## GETTER
