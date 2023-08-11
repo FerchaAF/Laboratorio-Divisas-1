@@ -17,4 +17,4 @@ class menu():
             print("Error")
             
             
-menu()
+menu.mostrardstos
