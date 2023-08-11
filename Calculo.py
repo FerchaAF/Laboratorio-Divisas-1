@@ -1,47 +1,41 @@
-from Divisador import CreaDivisador
+from divisa import *
 
-## La variable 2 o 'Va2' es una variable extra
-## que agregue en caso de que la llegaramos a
-## necesitar para procesar alguna parte del
-## calculo
+class calculo():
+    n = 0
+    def __init__(self, monto=0.0, dnombre=""):
+        super().__init__(monto, dnombre)
+        self.__dnombre= dnombre
+        self.__monto = monto
+        
+    def get_monto(self):
+        return self.__monto
+    def set_monto(self,monto):
+        self.__monto=monto
+    #Nombre de la divisa
+    def get_dnombre(self):
+        return self.__dnombre
+    def set_dnombre(self,dnombre):
+        self.__dnombre=dnombre
+        
+    def conversion(self):
+        dnombre = self.__dnombre
+        monto = self.__monto
+        if dnombre.lower == "yenes":
+            f_monto = monto*()
+        elif dnombre.lower == "dolares":
+            f_monto = monto*()
+        elif dnombre.lower == "soles":
+            f_monto = monto*()
+        elif dnombre.lower == "euros":
+            f_monto = monto*()
+        elif dnombre.lower == "libras":
+            f_monto = monto*()
+        return f_monto
 
-# Favor de no borrarla pero si no la necesitas, no la uses
-# Cuando se termine el programa se borrara
-
-
-class Calculador():
-    
-    ## CONSTRUCTOR
-    def __init__(self, Euro, Dolar, Sol, PMexicano, Yen, Resultado, Va2):
-        super().__init__(Euro, Dolar, Sol, PMexicano, Yen)
-        self.__ResultCal = Resultado
-        self.__Valor2 = Va2
+    def transcacciones(n):
+        n+=1
         
-    
-    ## SETTER
-    
-    def setResultado(self, Resultado):
-        self.__ResultCal = Resultado
-    
-    def SetVa2(self, Va2):
-        self.__Valor2 = Va2
-        
-    ## GETTER
-    
-    def getResultado(self):
-        return self.__ResultCal
-    def getValor2(self):
-        return self.__Valor2
-    
-    ################
-    #### METODO ####
-    ################
-    
-    def calculoraro():
-        Eur = CreaDivisador.getDivisaEur
-        
-        # Posible fallo
-        
-        Resultado = Eur * 0.50
-        
-        print(Resultado)
+    def datos(self):
+        super().datos()
+        print(f"Nombre de la Divisa: {self.get_dnombre()}")
+        print(f"Monto : {self.conversion()}, {self.__monto()}" )
