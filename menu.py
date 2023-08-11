@@ -8,10 +8,10 @@ class menu():
         opcion = int(input("Presione 1 si es extranjero y 2 si es chileno"))
 
         if opcion >=1:
-            Extranjero()
+            Extranjero.datos
             pass
         elif opcion ==2:
-            Chileno()
+            Chileno.datos
             pass
         else:
             print("Error")
