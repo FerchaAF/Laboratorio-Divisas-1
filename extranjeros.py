@@ -2,7 +2,7 @@ from persona import *
 class Extranjero(Persona):
     #Inicio de los constructores
     def __init__(self,nombre="", monto=0.0, dnombre="", nacionalidad=""):
-        super().__init__(nombre, monto, dnombre)
+        # super().__init__(nombre, monto, dnombre)
         self.__nacionalidad = nacionalidad
     #Nacionalidad
     def get_nacionalidad(self):

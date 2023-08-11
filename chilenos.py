@@ -3,8 +3,8 @@ from itertools import cycle
 
 class Chileno(Persona):
     #Inicio de los constructores
-    def __init__(self,nombre, monto, dnombre, rut, direccion):
-        super().__init__(nombre, monto, dnombre)
+    def __init__(self, nombre="", monto=0.0, dnombre="", rut=0, direccion=""):
+        # super().__init__(nombre, monto, dnombre)
         self.__rut = rut
         self.direccion= direccion
     #Getter y Setter (Rut y direccion)"
